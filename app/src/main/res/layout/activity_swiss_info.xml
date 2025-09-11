@@ -31,7 +31,14 @@
         android:padding="16dp"
         android:text="The country is famous for its chocolate, cheese, and watches."/>
 
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Switzerland has four official languages: German, French, Italian, and Romansh."/>
+
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnToMA"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"
