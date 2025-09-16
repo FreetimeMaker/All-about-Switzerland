@@ -28,5 +28,11 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, SwissInfoActivity.class);
             startActivity(intent);
         });
+
+        Button btnSwissRadio = findViewById(R.id.btnSwissRadio);
+        btnSwissRadio.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, RadioActivity.class);
+            startActivity(intent);
+        });
     }
 }
