@@ -10,16 +10,18 @@
         android:id="@+id/stationContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"/>
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:dividerHeight="1dp">
 
-    <com.google.android.material.textview.MaterialTextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:textSize="16sp"
-        android:textAlignment="center"
-        android:text="Swiss Radiostations"
-        android:textColor="#FF0000"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="Swiss Radiostations"
+            android:textColor="#FF0000"/>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnLisSR"
@@ -56,4 +58,6 @@
         android:textAlignment="center"
         android:text="Go to Media Activity"
         android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
 </ScrollView>

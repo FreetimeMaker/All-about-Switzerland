@@ -16,6 +16,7 @@
         <activity
             android:name=".RadioActivity" />
         <activity android:name=".SwissInfoActivity" />
+        <activity android:name=".PlayerActivity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
