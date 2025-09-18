@@ -44,7 +44,7 @@ public class RadioActivity extends AppCompatActivity {
         Button btnLisSR = findViewById(R.id.btnLisSR);
         btnLisSR.setOnClickListener(v -> {
             Intent intent = new Intent(this, PlayerActivity.class);
-            intent.putExtra("STREAM_URL", "https://stream.sunshine.ch/sunshine-high.mp3");
+            intent.putExtra("STREAM_URL", "" + "https://chmedia.streamabc.net/79-rsunshine-mp3-192-4746851?sABC=68poqpn2%231%231699795900047_8633080%23puzrqvn-enqvb-jro&aw_0_1st.playerid=chmedia-radio-web&amsparams=playerid:chmedia-radio-web;skey:1758190754");
             intent.putExtra("STATION_NAME", "Sunshine Radio");
             startActivity(intent);
         });
@@ -52,7 +52,7 @@ public class RadioActivity extends AppCompatActivity {
         Button btnLisRP = findViewById(R.id.btnLisRP);
         btnLisRP.setOnClickListener(v -> {
             Intent intent = new Intent(this, PlayerActivity.class);
-            intent.putExtra("STREAM_URL", "https://radiopilatus.ice.infomaniak.ch/radiopilatus-high.mp3");
+            intent.putExtra("STREAM_URL", "https://chmedia.streamabc.net/79-pilatus-mp3-192-4664468?sABC=68pons12%230%23q7s809s74070n543n7p5213q6qr39235%23puzrqvn&aw_0_1st.playerid=chmedia&amsparams=playerid:chmedia;skey:1758179090");
             intent.putExtra("STATION_NAME", "Radio Pilatus");
             startActivity(intent);
         });
@@ -60,7 +60,7 @@ public class RadioActivity extends AppCompatActivity {
         Button btnLisSRF3 = findViewById(R.id.btnLisSRF3);
         btnLisSRF3.setOnClickListener(v -> {
             Intent intent = new Intent(this, PlayerActivity.class);
-            intent.putExtra("STREAM_URL", "https://stream.srg-ssr.ch/m/srf3/aacp_96");
+            intent.putExtra("STREAM_URL", "http://livestreaming-node-4.srg-ssr.ch/srgssr/srf3/mp3/128");
             intent.putExtra("STATION_NAME", "SRF 3");
             startActivity(intent);
         });
@@ -68,7 +68,7 @@ public class RadioActivity extends AppCompatActivity {
         Button btnLisSRF1 = findViewById(R.id.btnLisSRF1);
         btnLisSRF1.setOnClickListener(v -> {
             Intent intent = new Intent(this, PlayerActivity.class);
-            intent.putExtra("STREAM_URL", "https://stream.srg-ssr.ch/m/rsr1/aacp_96");
+            intent.putExtra("STREAM_URL", "http://livestreaming-node-1.srg-ssr.ch/srgssr/srf1/mp3/128");
             intent.putExtra("STATION_NAME", "SRF 1");
             startActivity(intent);
         });
