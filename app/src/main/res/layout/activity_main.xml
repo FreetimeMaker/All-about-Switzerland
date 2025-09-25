@@ -18,20 +18,20 @@
         android:textStyle="bold"
         android:textSize="16sp"
         android:textColor="#FF0000"
-        android:text="Welcome to All about Switerland!" />
+        android:text="@string/welcomemaintxt" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnSwissInfo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:text="Click here to get more Infos about Switzerland!" />
+        android:text="@string/mainbtnsitxt" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnSwissRadio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:text="Click here to listen to Swiss Radiostations" />
+        android:text="@string/mainbtnrstxt" />
 
 </LinearLayout>

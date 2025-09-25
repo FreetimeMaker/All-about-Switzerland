@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">All about Switzerland</string>
+    <string name="app_name">Alles über die Schweiz</string>
+    <string name="welcomemaintxt">Willkommen bei Alles über die Schweiz!</string>
+    <string name="mainbtnsitxt">Klicken Sie hier, um mehr Infos über die Schweiz zu erhalten!</string>
+    <string name="mainbtnrstxt">Klicken Sie hier, um Schweizer Radiosender zu hören!</string>
+    <string name="welcomesitxt">Willkommen bei den Infos über die Schweiz!</string>
+    <string name="infotxtabtswiss">Hier finden Sie interessante Fakten und Informationen zur Schweiz.</string>
+    <string name="firstinfoabtswiss">Die Schweiz ist für ihre wunderschönen Landschaften bekannt, darunter die Alpen und zahlreiche Seen.</string>
+    <string name="secondinfoabtswiss">Das Land ist für ihre Schokolade, Käse und Uhren berühmt.</string>
+    <string name="thirdinfoabtswiss">Die Schweiz hat vier offizielle Sprachen: Deutsch, Französisch, Italienisch und Rätoromanisch.</string>
+    <string name="fourthinfoabtswiss">Die Hauptstadt der Schweiz ist Bern, während Zürich die größte Stadt ist. Als Napoleon in der Schweiz war, wählte er Aarau als sein Hauptquartier.</string>
+    <string name="fifthinfoabtswiss">Bern ist nicht nur die Hauptstadt, sondern auch der Sitz des Schweizer Parlaments.</string>
+    <string name="sixthinfoabtswiss">Die Schweiz ist für ihre hohe Lebensqualität bekannt und zählt in den Bereichen Gesundheitsversorgung, Bildung und allgemeines Wohlbefinden regelmäßig zu den führenden Ländern der Welt.</string>
+    <string name="seventhinfoabtswiss">Die Schweiz ist für ihre Neutralität bekannt und war seit 1815 in keinen militärischen Konflikt verwickelt.</string>
+    <string name="eighthinfoabtswiss">Das Schweizer Bankensystem ist für seine Stabilität und Privatsphäre bekannt.</string>
+    <string name="ninethinfoabtswiss">In der Schweiz sind zahlreiche internationale Organisationen ansässig, darunter das Rote Kreuz und das Büro der Vereinten Nationen in Genf.</string>
+    <string name="backtomainbtntxt">Klicken Sie hier, um zur Startseite zu gelangen!</string>
 </resources>

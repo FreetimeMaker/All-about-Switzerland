@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">All about Switzerland</string>
+    <string name="welcomemaintxt">Welcome to All about Switerland!</string>
+    <string name="mainbtnsitxt">Click here to get more Infos about Switzerland!</string>
+    <string name="mainbtnrstxt">Click here to listen to Swiss Radiostations!</string>
+    <string name="welcomesitxt">Welcome to the Infos about Switzerland!</string>
+    <string name="infotxtabtswiss">Here you will find interesting facts and informations about Switzerland.</string>
+    <string name="firstinfoabtswiss">Switzerland is known for its beautiful landscapes, including the Alps and numerous lakes.</string>
+    <string name="secondinfoabtswiss">The country is famous for its chocolate, cheese, and watches.</string>
+    <string name="thirdinfoabtswiss">Switzerland has four official languages: German, French, Italian, and Romansh.</string>
+    <string name="fourthinfoabtswiss">The capital city of Switzerland is Bern, while Zurich is the largest city. When Napoleon was in Switzerland he chose Aarau as his headquarters.</string>
+    <string name="fifthinfoabtswiss">Bern is not only the capital city its the city where the Swiss Parliament is located.</string>
+    <string name="sixthinfoabtswiss">Switzerland is known for its high quality of life and consistently ranks among the top countries in the world for healthcare, education, and overall well-being.</string>
+    <string name="seventhinfoabtswiss">Switzerland is known for its neutrality and has not been involved in any military conflict since 1815.</string>
+    <string name="eighthinfoabtswiss">The Swiss banking system is renowned for its stability and privacy.</string>
+    <string name="ninethinfoabtswiss">Switzerland is home to many international organizations, including the Red Cross and the United Nations office in Geneva.</string>
+    <string name="backtomainbtntxt">Click here to get to the Home Page!</string>
 </resources>

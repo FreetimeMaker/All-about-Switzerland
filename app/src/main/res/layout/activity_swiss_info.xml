@@ -21,7 +21,7 @@
         android:textStyle="bold"
         android:textSize="16sp"
         android:textColor="#FF0000"
-        android:text="Welcome to the Infos about Switzerland!"
+        android:text="@string/welcomesitxt"
         android:textAlignment="center"/>
 
     <com.google.android.material.textview.MaterialTextView
@@ -32,7 +32,7 @@
         android:textStyle="bold"
         android:textSize="16sp"
         android:textColor="#00BCD4"
-        android:text="Here you will find interesting facts and informations about Switzerland."/>
+        android:text="@string/infotxtabtswiss"/>
 
     <com.google.android.material.textview.MaterialTextView
         android:layout_width="match_parent"
@@ -40,7 +40,7 @@
         android:padding="16dp"
         android:textAlignment="center"
         android:textColor="#9C27B0"
-        android:text="Switzerland is known for its beautiful landscapes, including the Alps and numerous lakes."/>
+        android:text="@string/firstinfoabtswiss"/>
 
     <com.google.android.material.textview.MaterialTextView
         android:layout_width="match_parent"
@@ -48,7 +48,7 @@
         android:padding="16dp"
         android:textAlignment="center"
         android:textColor="#E91E63"
-        android:text="The country is famous for its chocolate, cheese, and watches."/>
+        android:text="@string/secondinfoabtswiss"/>
 
     <com.google.android.material.textview.MaterialTextView
         android:layout_width="match_parent"
@@ -56,7 +56,7 @@
         android:padding="16dp"
         android:textAlignment="center"
         android:textColor="#FF9800"
-        android:text="Switzerland has four official languages: German, French, Italian, and Romansh."/>
+        android:text="@string/thirdinfoabtswiss"/>
 
         <com.google.android.material.textview.MaterialTextView
             android:layout_width="match_parent"
@@ -64,7 +64,7 @@
             android:padding="16dp"
             android:textAlignment="center"
             android:textColor="#4CAF50"
-            android:text="The capital city of Switzerland is Bern, while Zurich is the largest city. When Napolion was in Switzerland he chose Aarau as his headquarters."/>
+            android:text="@string/fourthinfoabtswiss"/>
 
         <com.google.android.material.textview.MaterialTextView
             android:layout_width="match_parent"
@@ -72,7 +72,7 @@
             android:padding="16dp"
             android:textColor="#8BC34A"
             android:textAlignment="center"
-            android:text="Bern is not only the capital city its the city where the Swiss Parliament is located."/>
+            android:text="@string/fifthinfoabtswiss"/>
 
         <com.google.android.material.textview.MaterialTextView
             android:layout_width="match_parent"
@@ -80,7 +80,7 @@
             android:padding="16dp"
             android:textAlignment="center"
             android:textColor="#CDDC39"
-            android:text="Switzerland is known for its high quality of life and consistently ranks among the top countries in the world for healthcare, education, and overall well-being."/>
+            android:text="@string/sixthinfoabtswiss"/>
 
         <com.google.android.material.textview.MaterialTextView
             android:layout_width="match_parent"
@@ -88,7 +88,7 @@
             android:padding="16dp"
             android:textAlignment="center"
             android:textColor="#FFC107"
-            android:text="Switzerland is known for its neutrality and has not been involved in any military conflict since 1815."/>
+            android:text="@string/seventhinfoabtswiss"/>
 
         <com.google.android.material.textview.MaterialTextView
             android:layout_width="match_parent"
@@ -96,7 +96,7 @@
             android:padding="16dp"
             android:textAlignment="center"
             android:textColor="#03A9F4"
-            android:text="The Swiss banking system is renowned for its stability and privacy."/>
+            android:text="@string/eighthinfoabtswiss"/>
 
         <com.google.android.material.textview.MaterialTextView
             android:layout_width="match_parent"
@@ -104,7 +104,7 @@
             android:padding="16dp"
             android:textAlignment="center"
             android:textColor="#2196F3"
-            android:text="Switzerland is home to many international organizations, including the Red Cross and the United Nations office in Geneva."/>
+            android:text="@string/ninethinfoabtswiss"/>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnToMA"
@@ -112,6 +112,6 @@
         android:layout_height="wrap_content"
         android:padding="16dp"
         android:textAlignment="center"
-        android:text="Click here to get to the Home Page!"/>
+        android:text="@string/backtomainbtntxt"/>
     </LinearLayout>
 </ScrollView>
